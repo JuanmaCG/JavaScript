@@ -110,7 +110,7 @@ const	letras	=	['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S',
 
 function dniLetra(){
     let total = parseInt(prompt('Introduce tu numero de DNI'));
-    
+
     let letra = letras[(total % 23)];
     return 'Tu DNI es ' + total + letra;
 }
